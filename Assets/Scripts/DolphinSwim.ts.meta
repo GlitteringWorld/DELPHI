@@ -1,0 +1,64 @@
+- !<AssetImportMetadata/1e5b1a02-aae6-474e-9c2c-67453091654f>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 6312a37e-767a-4d62-8091-9846f188b514
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 6312a37e-767a-4d62-8091-9846f188b514
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 33ab9e64-40a8-423d-9988-b947f3a2dd4e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/33ab9e64-40a8-423d-9988-b947f3a2dd4e>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: bf4ab1e3-96bb-492f-93ff-ad4072580e1b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    belowEyeM: false
+    holdDistanceM: false
+    startDistanceM: false
+    swayM: false
+    swimDurationSec: false
+    yawOffsetDeg: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - startDistanceM: 1.220000
+      holdDistanceM: 0.600000
+      swimDurationSec: !<float> 4.000000
+      belowEyeM: 0.120000
+      swayM: 0.060000
+      yawOffsetDeg: !<float> 0.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">DolphinSwim – approach the wearer, then hold</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Settings</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float startDistanceM = 1.22 {"hint":"Distance in front of the camera when the swim starts, in meters. 4 feet is 1.22.", "widget":"slider", "min":0.4, "max":3, "step":0.01}'
+    - "// @input float holdDistanceM = 0.6 {\"hint\":\"Distance in front of the camera where the dolphin holds, in meters. Arm's length is 0.6.\", \"widget\":\"slider\", \"min\":0.3, \"max\":2, \"step\":0.01}"
+    - '// @input float swimDurationSec = 4 {"hint":"Seconds the dolphin takes to swim from the start distance to the hold distance.", "widget":"slider", "min":0.5, "max":12, "step":0.1}'
+    - '// @input float belowEyeM = 0.12 {"hint":"How far below the camera the dolphin root sits, in meters.", "widget":"slider", "min":0, "max":0.6, "step":0.01}'
+    - '// @input float swayM = 0.22 {"hint":"Width of the meander, in meters, from the center line to the outside of a curve.", "widget":"slider", "min":0, "max":0.6, "step":0.01}'
+    - "// @input float yawOffsetDeg {\"hint\":\"Extra yaw in degrees if the imported dolphin's nose does not point at the wearer. 180 flips it.\", \"widget\":\"slider\", \"min\":-180, \"max\":180, \"step\":1}"
+    - '// @ui {"widget":"group_end"}'

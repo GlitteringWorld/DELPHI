@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/6c9992fe-7384-4a22-b989-4ca6e0f00a0f>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 1350d8d0-d278-4524-8e60-7cfc2405917d
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 1350d8d0-d278-4524-8e60-7cfc2405917d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 7d9cd5db-f270-4646-97f9-105350dcebce
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/7d9cd5db-f270-4646-97f9-105350dcebce>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: d1b12ced-7916-4055-a1b4-73cba73dbe28
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    material: false
+    shape1: false
+    shape2: false
+    shape3: false
+    shape4: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - material: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      shape1: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      shape2: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      shape3: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      shape4: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Asset.Material material {"hint":"Unlit material. The script clones it, then sets the sparkle texture and additive blending."}'
+    - '// @input SceneObject shape1 {"hint":"Gel. Pinch plays the silver-string family."}'
+    - '// @input SceneObject shape2 {"hint":"Oval pebble. Pinch plays the mallet family."}'
+    - '// @input SceneObject shape3 {"hint":"Starfish. Pinch plays the wind family."}'
+    - '// @input SceneObject shape4 {"hint":"Pebble. Pinch plays the bell family."}'

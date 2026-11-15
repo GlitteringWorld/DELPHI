@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/647bd659-29e4-4293-b5f0-3899bbf4b97b>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 54e47006-f1bf-4b58-8920-7fe03df5cc0b
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 54e47006-f1bf-4b58-8920-7fe03df5cc0b
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 6b11be53-0b60-4729-bb5c-22e81ba20f74
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/6b11be53-0b60-4729-bb5c-22e81ba20f74>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 01f4f9ac-1cb4-4e36-8e17-0eef369133b5
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    duet: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - duet: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Melody test – pinch plays one existing song</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - // @input Component.ScriptComponent duet

@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/74b8aacf-1cd9-4ecd-bce4-82923b62e2e5>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> e3b108b5-f380-43e4-8bf4-bcafefc43aea
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> e3b108b5-f380-43e4-8bf4-bcafefc43aea
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> f192fb66-bc54-4b3e-bd27-f0222e1511ca
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/f192fb66-bc54-4b3e-bd27-f0222e1511ca>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 86ea8354-ac35-4380-a34e-62365947fbbd
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    autoStart: false
+    ceilingHeight: false
+    eyeHeight: false
+    loop: false
+    material: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - material: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      eyeHeight: !<float> 150.000000
+      ceilingHeight: !<float> 120.000000
+      autoStart: true
+      loop: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Asset.Material material {"hint":"Base material created from ImageMaterialPreset (e.g. TrailBaseMaterial). It is cloned; nothing is changed on the asset."}'
+    - '// @input float eyeHeight = 150 {"hint":"Distance from your eyes down to the floor, in cm."}'
+    - '// @input float ceilingHeight = 120 {"hint":"How high above your eyes (cm) the stars gather: aim this at your ceiling visual."}'
+    - '// @input bool autoStart = true {"hint":"Start the sequence automatically when the Lens starts."}'
+    - '// @input bool loop {"hint":"Replay the sequence again and again."}'

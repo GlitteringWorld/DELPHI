@@ -1,0 +1,55 @@
+- !<AssetImportMetadata/295f39a8-f9d1-4f85-a1eb-0a4adb980904>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> f5ed0def-4fad-4b9a-aad4-e73caad37601
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> f5ed0def-4fad-4b9a-aad4-e73caad37601
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> f2894af2-3f6f-425e-a494-d2ed368fe667
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/f2894af2-3f6f-425e-a494-d2ed368fe667>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 84ab10ad-bfed-4653-9c22-57e5a9ffa301
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    groundBelowM: false
+    material: false
+    riseM: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - material: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      groundBelowM: 0.220000
+      riseM: 1.150000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">StardustField – dust rising off the floor</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Settings</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input Asset.Material material {"hint":"Unlit material. The script assigns the glow texture and additive blending."}'
+    - '// @input float groundBelowM = 0.22 {"hint":"How far below this object the dust sits, in meters.", "widget":"slider", "min":0.05, "max":1.6, "step":0.01}'
+    - '// @input float riseM = 0.8 {"hint":"How high the rising trails climb above the floor, in meters.", "widget":"slider", "min":0.3, "max":2.2, "step":0.01}'
+    - '// @ui {"widget":"group_end"}'

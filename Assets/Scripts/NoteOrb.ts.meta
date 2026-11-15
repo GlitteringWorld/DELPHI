@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/851e6bc2-84ff-4638-af9a-c22ddec892fb>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 988ad4a6-85d7-43f5-9b26-ee0faf865627
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 988ad4a6-85d7-43f5-9b26-ee0faf865627
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 8866d32c-12be-4c53-ba51-1d83666df250
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/8866d32c-12be-4c53-ba51-1d83666df250>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 198b6e6c-bd93-411f-82fb-36090979468a
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    pitchAboveM: false
+    pitchBelowM: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - pitchBelowM: 0.350000
+      pitchAboveM: 0.450000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">NoteOrb – pinch plays, height bends pitch</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Settings</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float pitchBelowM = 0.35 {"hint":"Lowest pitch, in meters below the head height captured when the stage froze. C4.", "widget":"slider", "min":0, "max":1, "step":0.01}'
+    - '// @input float pitchAboveM = 0.45 {"hint":"Highest pitch, in meters above that head height. C5.", "widget":"slider", "min":0, "max":1, "step":0.01}'
+    - '// @ui {"widget":"group_end"}'

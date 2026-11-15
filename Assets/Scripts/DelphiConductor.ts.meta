@@ -1,0 +1,68 @@
+- !<AssetImportMetadata/d2a9e89b-5fb1-4f1f-9859-f181de999aa5>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 6d8245e0-ecf2-4c31-9300-43b130c1f742
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 6d8245e0-ecf2-4c31-9300-43b130c1f742
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 15ba000e-42e6-45d5-9cd3-b181add40613
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/15ba000e-42e6-45d5-9cd3-b181add40613>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: c1f19d4d-7d27-4b67-a8f5-19998bf76452
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    dolphin: false
+    duet: false
+    rowSpanM: false
+    stage: false
+    star0: false
+    star1: false
+    star2: false
+    star3: false
+    voice: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - duet: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      voice: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      dolphin: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      stage: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      star0: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      star1: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      star2: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      star3: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      rowSpanM: 0.400000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Component.ScriptComponent duet {"hint":"DelphiDuet script."}'
+    - '// @input Component.ScriptComponent voice {"hint":"DelphiVoice script. Its status line is filled in at start."}'
+    - '// @input AssignableType dolphin {"hint":"The dolphin.glb swim controller. Delphi glides toward a shape after the swim."}'
+    - '// @input SceneObject stage {"hint":"Stage anchor used to read shape position."}'
+    - '// @input AssignableType_1 star0 {"hint":"Gel."}'
+    - '// @input AssignableType_2 star1 {"hint":"Oval pebble."}'
+    - '// @input AssignableType_3 star2 {"hint":"Starfish."}'
+    - '// @input AssignableType_4 star3 {"hint":"Pebble."}'
+    - '// @input float rowSpanM = 0.4 {"hint":"Width of the shape row, in meters. Matches the session row."}'

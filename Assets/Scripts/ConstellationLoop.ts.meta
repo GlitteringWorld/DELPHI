@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/8c4d2f17-3a60-4e85-b192-6d0a7c3e5b28>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> f2b7c814-6e09-4a53-8d70-1c9e4b2a6f85
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> f2b7c814-6e09-4a53-8d70-1c9e4b2a6f85
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 1e8a3c56-7d24-4b90-a6f1-5c2d9e0b7a43
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/1e8a3c56-7d24-4b90-a6f1-5c2d9e0b7a43>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 4b9e1a70-2c58-4d36-8f14-0a6e3c7b9d52
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    texture: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - texture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Asset.Texture texture {"hint":"Constellation gif."}'
